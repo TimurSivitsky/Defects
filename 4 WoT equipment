@@ -1,0 +1,24 @@
+Summary: Разная индентификация у одного предмета на складе личных резервов
+Project: worldoftanks
+Description: Личные резерв обладающий одинаковыми эффектами имеют разный индентификатор
+Component: Personal Buffs.
+Opportunity to get around: нет
+Priority: Низкая(low)
+Severity: Низкая(Minor)
+Status: Новый (new_bug)
+Reproducibility: Да
+STR:
+Preconditions:
+● Предмет должен быть получен из разных источников.
+
+1. Перейти во вкладку личного профиля (никнейм игрока).
+2. Нажать на доступные слоты для личных резервов
+3. Найти одинаковые личные резервы с разным количеством
+
+Expected result: Одинаковые предметы суммируются.
+Actual result: Предметы имеющие одинаковый баф, отображаются как разные.
+Environment: OS Windows 10-64bit 20H2 19042.928 (Prod env)
+WorldOfTanks.exe, Build Version: 1.12.2 #812
+Tags: PersonalBuffs.
+Author: Sivitsky T.
+Attachments: 4.jpg
