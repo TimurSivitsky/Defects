@@ -1,0 +1,23 @@
+Summary: Неполный перевод основных ссылок на белорусском языке
+Project: yandex.by
+Description: Ссылки "Программа" и "Эфир"
+Component: MenuBar.
+Opportunity to get around: нет
+Priority: Низкая(low)
+Severity: Низкая(Minor)
+Status: Новый (new_bug)
+Reproducibility: Да
+STR:
+Preconditions:
+● Должен быть выбран в настройках портала белорусский язык.
+
+1. Переход на главную страницу портала Яндекса.
+
+
+Expected result: Программа переведена как Праграма, а Эфир как Эфiр.
+Actual result: Программа и Эфир написаны на русском языке.
+Environment: OS Windows 10-64bit 20H2 19042.928 (Prod env)
+Сhrome, Build Version: 91.0.4472.77
+Tags: MenuBar.
+Author: Sivitsky T.
+Attachments: 5.jpg
