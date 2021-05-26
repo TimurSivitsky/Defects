@@ -1,0 +1,24 @@
+Summary: Непропадающее уведомление на сайте Worldoftanks.ru
+Project: worldoftanks.ru
+Description: Уведомления при прочтении и обновлении страницы не исчезает, а остается висеть, как будто бы непрочитано. Так же не пропадает, если его удалить собственноручно.
+Component: Notification.
+Opportunity to get around: нет
+Priority: Низкая(low)
+Severity: Низкая(Minor)
+Status: Новый (new_bug)
+Reproducibility: Да
+STR:
+Preconditions:
+● Уведомление должно быть прислано в профиль игрового аккаунта.
+
+1. Выбор внизпадающего списка Уведомления.
+2. Удалить уведмоления (Х значок)
+3. Перезагрузить страницу
+
+Expected result: Уведомление исчезло и не появляется в списке уведомлений.
+Actual result: Уведомление не удалилось.
+Environment: OS Windows 10-64bit 20H2 19042.928 (Prod env)
+Сhrome, Build Version: 91.0.4472.77
+Tags: Notifications.
+Author: Sivitsky T.
+Attachments: 2.jpg
