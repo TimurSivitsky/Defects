@@ -1,0 +1,24 @@
+Summary: Ограничение отображения аудиозаписей (100)
+Project: vk coffee
+Description: Отображаются не более 100 последних треков во вкладке аудиозаписи.
+Component: music module.
+Opportunity to get around: нет
+Priority: Medium)
+Severity: Major
+Status: Новый (new_bug)
+Reproducibility: Да
+STR:
+Preconditions:
+● У аккаунта должны присутствовать аудиозаписи.
+
+1. Перейти во вкладку "Мои аудиозаписи".
+2. Свайпнуть вниз до конца списка
+
+Expected result: Отображаются все аудиозаписи на аккаунте.
+Actual result: Отображение 100 последних записей .
+Environment: Android 10
+REALME UI 1.0 build RMX1931EX_11_c.36
+Application build vk coffee 8.03 public beta
+Tags: Music module.
+Author: Sivitsky T.
+Attachments: 3.jpg
